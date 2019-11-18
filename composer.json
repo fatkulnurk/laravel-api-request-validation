@@ -1,0 +1,12 @@
+{
+    "name": "fatkulnurk/laravel-api-request-validation",
+    "description": "request validation for api request",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*"
+    },
+    "psr-4": {
+        "Fatkulnurk\\LaravelApiRequestValidation\\": "src/"
+    }
+}
