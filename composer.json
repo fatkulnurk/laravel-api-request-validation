@@ -1,12 +1,14 @@
 {
     "name": "fatkulnurk/laravel-api-request-validation",
-    "description": "request validation for api request",
+    "description": "kegunaanya untuk memberikan hasil return berupa json, untuk field apa aja yang menyebabkan error saat request, beserta message error dan old value.",
     "type": "library",
     "require": {
         "php": "^7.2",
         "ext-json": "*"
     },
-    "psr-4": {
-        "Fatkulnurk\\LaravelApiRequestValidation\\": "src/"
+    "autoload": {
+        "psr-4": {
+            "Fatkulnurk\\LaravelApiRequestValidation\\": "src/"
+        }
     }
 }
